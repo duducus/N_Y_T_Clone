@@ -41,13 +41,14 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.7px;
   line-height: 19px;
+  top: 10px;
 }
 
 .nav_left img {
   position: relative;
   margin-right: 12px;
-  top: 10px;
-  width: 3%;
+  top: 15px;
+  width: 2%;
   left: 0;
 }
 
