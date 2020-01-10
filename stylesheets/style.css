@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  background-color: white;
+  line-height: 1;
+}
+
+header {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  margin-top: 0;
+}
+
+.nav_left {
+  float: left;
+}
+
+.nav_left a {
+  position: relative;
+  top: 7px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav_left img {
+  position: relative;
+  margin-right: 12px;
+  top: 14px;
+  width: 3%;
+  left: 0;
+}
+
+.nav_right {
+  padding: 5px;
+  float: right;
+}
+
+.btn-nav_right1 {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  padding: 9px 19px;
+  font-size: 9px;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+}
+
+.btn-nav_right2 {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  padding: 9px 19px;
+  font-size: 9px;
+  margin: 5px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+}
+
+.btn-nav_right:hover {
+  background-color: rgb(50, 104, 145);
+}
+
+.logo_container {
+  text-align: center;
+  top: 0px;
+  z-index: -1;
+
+}
