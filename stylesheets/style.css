@@ -4,15 +4,12 @@
 }
 
 body {
-  color: #333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  background-color: white;
   line-height: 1;
 }
 
 header {
   z-index: 0;
-  background-color: white;
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
   width: 100%;
@@ -52,6 +49,15 @@ header {
   left: 0;
 }
 
+.logo_container img{
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 16%;
+  height: 10%;
+  left: 40%;
+}
+
 .nav_right {
   position: absolute;
   padding: 5px;
@@ -78,8 +84,6 @@ header {
 
 .btn-nav_right2 {
   float: right;
-  transition: background-color 0.5s ease;
-  cursor: pointer;
   padding: 9px 19px;
   font-size: 9px;
   margin: 5px;
@@ -97,16 +101,37 @@ header {
   width: 10%;
 }
 
-.btn-nav_right:hover {
+.btn-nav_right1:hover {
   background-color: rgb(50, 104, 145);
 }
 
-.logo_container img{
-  display: block;
-  position: relative;
-  top: 0px;
-  width: 16%;
-  height: 10%;
-  left: 40%;
+.disclaimer_bottom {
+  position: fixed;
+  width: 100%;
+  height: 9%;
+  bottom: 0;
+  border: 1px solid rgb(0,0,0);
+}
 
+.text1_bottom {
+  position: relative;
+  font-family: nyt-franklin;
+  left: 40%;
+  font-weight: bold;
+  top: 30%;
+}
+
+.text2_bottom {
+  position: relative;
+  left: 49%;
+  top: 30%;
+  font-weight: bold;
+}
+
+.arrow_bottom {
+  position: relative;
+  width: 2%;
+  height: auto;
+  right: -50%;
+  top: 30%;
 }
