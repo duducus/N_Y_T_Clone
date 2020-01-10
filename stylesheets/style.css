@@ -11,48 +11,57 @@ body {
 }
 
 header {
-  z-index: 2;
-  position: fixed;
+  z-index: 0;
   background-color: white;
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
   width: 100%;
 }
 
-nav {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  height: 50px;
-  margin-top: 0;
+.nav_bar {
+  width: 100%;
+  position: relative;
 }
 
 .nav_left {
   float: left;
+  position: absolute;
+  margin-left: 2%;
 }
 
 .nav_left a {
   position: relative;
-  top: 7px;
   text-decoration: none;
   color: black;
   font-weight: bold;
+  width: 30%;
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
 }
 
 .nav_left img {
   position: relative;
   margin-right: 12px;
-  top: 14px;
+  top: 10px;
   width: 3%;
   left: 0;
 }
 
 .nav_right {
+  position: absolute;
   padding: 5px;
   float: right;
+  width: 45%;
+  right: 0;
+  top: 10%;
 }
 
 .btn-nav_right1 {
+  float: right;
   transition: background-color 0.5s ease;
   cursor: pointer;
   padding: 9px 19px;
@@ -63,9 +72,11 @@ nav {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
+  position: relative;
 }
 
 .btn-nav_right2 {
+  float: right;
   transition: background-color 0.5s ease;
   cursor: pointer;
   padding: 9px 19px;
@@ -74,17 +85,27 @@ nav {
   font-weight: bold;
   color: black;
   background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(50, 104, 145);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 3px;
+  width: 20%;
+  position: relative;
+}
+
+.nav_right img {
+  position: relative;
+  width: 10%;
 }
 
 .btn-nav_right:hover {
   background-color: rgb(50, 104, 145);
 }
 
-.logo_container {
-  text-align: center;
+.logo_container img{
+  display: block;
+  position: relative;
   top: 0px;
-  z-index: -1;
+  width: 20%;
+  height: 10%;
+  left: 40%;
 
 }
