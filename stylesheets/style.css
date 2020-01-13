@@ -139,6 +139,8 @@ figcaption {
   background-color: rgb(50, 104, 145);
 }
 
+
+
 .disclaimer_bottom {
   position: fixed;
   width: 100%;
@@ -193,6 +195,7 @@ figcaption {
 }
 
 .chart {
+  position: relative;
   width: 95%;
   height: auto;
 }
@@ -205,6 +208,54 @@ figcaption {
 .credit {
   font-size: 13px;
   color: #888;
+}
+
+.row1-text1 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row1-text2 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row1-text3 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row1-text4 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row2-text1 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row2-text2 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row2-text3 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
+}
+
+.row2-text4 {
+  position: absolute;
+  top: 33%;
+  width: 23%;
 }
 
 #image-grapper {
