@@ -241,3 +241,20 @@ figcaption {
 #socials > * {
   margin-right: 10px;
 }
+
+.chart_img{
+  width: 60%;
+  margin-left: -105px;
+  position: absolute;
+}
+.chart_img h2 {
+  font-size: 20px;
+  line-height: 24px;
+  margin:0;
+}
+.chart_img p {
+  position: relative;
+  font-size: 14px;
+  color: #666;
+  margin: 2px;
+}
