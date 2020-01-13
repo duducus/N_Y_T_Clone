@@ -21,14 +21,18 @@ article {
   max-width: 1200px;
   padding-top: 30px;
   margin: 0 auto 0 auto;
+
 }
 
 article > * {
   grid-column: 2 / -2;
 
+
 }
 
 h1{
+  position: rela;
+  top: 15px;
   font-family: nyt-cheltenham;
   font-size: 40px;
   font-style: italic;
@@ -43,7 +47,10 @@ figcaption {
 
 .nav_bar {
   width: 100%;
-  position: relative;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  border: 1px solid rgb(0,0,0);
 }
 
 .nav_left {
@@ -168,16 +175,30 @@ figcaption {
 }
 
 .image-wrapper > img {
-  position: relative;
   margin-left: 15%;
   max-width: 70%;
   height: auto;
 }
 
 .image-wrapper figcaption {
-  position: relative;
   width: 70%;
   margin-left: 15%;
+}
+
+.chart_img {
+  margin-top: 6%;
+  margin-left: 0%;
+
+}
+
+.chart {
+  width: 95%;
+  height: auto;
+}
+
+.subs_ad1 {
+  width: 40%;
+  margin-left: 30%;
 }
 
 .credit {
@@ -190,7 +211,6 @@ figcaption {
 }
 
 #preamble {
-  position: relative;
   font-family: nyt-franklin;
 }
 
