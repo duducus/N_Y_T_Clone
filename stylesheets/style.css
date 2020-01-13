@@ -137,27 +137,76 @@ header {
   top: 30%;
 }
 
-.main-body{
-  height: 160%;
-  
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  max-width: 1200px;
+  padding-top: 30px;
+  margin: 0 auto 0 auto;
 }
 
-.main-body h1{
-  position: relative;
-  left: 30%;
-  width: 32.5%;
-  margin: 2% 0;
-  font-family: 'Courier New', Courier, monospace;
+article > * {
+  grid-column: 2 / -2;
+}
+
+h1{
+  font-family: nyt-cheltenham;
+  font-size: 40px;
+  font-style: italic;
  
 }
 
-.main-image{
-  position: absolute;
-  width: 80%;
-  
-  margin-left: 20%;
+.image-wrapper {
+  grid-column: 1 / -1;
 }
 
-main{
-  position: absolute;
+.image-wrapper > img {
+  max-width: 95%;
+  height: auto;
 }
+.credit {
+  font-size: 13px;
+  color: #888;
+}
+
+figcaption {
+  font-size: 15px;
+  font-family: nyt-imperial;
+  color: #666;
+}
+main{
+  position:auto;
+}
+
+#preamble {
+  font-family: nyt-franklin;
+}
+
+#preamble .author {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#preamble .author a {
+  color: #333;
+}
+
+#preamble .date {
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
+}
+
+#socials {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+#socials > * {
+  margin-right: 10px;
+}
+
+
+
