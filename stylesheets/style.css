@@ -153,6 +153,7 @@ h1{
   font-family: nyt-cheltenham;
   font-size: 40px;
   font-style: italic;
+  margin-bottom: 5%; 
  
 }
 
@@ -174,9 +175,7 @@ figcaption {
   font-family: nyt-imperial;
   color: #666;
 }
-main{
-  position:auto;
-}
+
 
 #preamble {
   font-family: nyt-franklin;
@@ -186,6 +185,7 @@ main{
   color: #333;
   font-size: 15px;
   font-weight: 700;
+  margin-top: 5%;
 }
 
 #preamble .author a {
