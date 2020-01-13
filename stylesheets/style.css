@@ -219,43 +219,50 @@ figcaption {
 .row1-text2 {
   position: absolute;
   top: 33%;
+  left: 25%;
   width: 23%;
+  margin-right: 20px;
 }
 
 .row1-text3 {
   position: absolute;
   top: 33%;
+  left: 50%;
   width: 23%;
 }
 
 .row1-text4 {
   position: absolute;
+  left: 75%;
   top: 33%;
   width: 23%;
 }
 
 .row2-text1 {
   position: absolute;
-  top: 33%;
+  top: 75%;
   width: 23%;
 }
 
 .row2-text2 {
   position: absolute;
-  top: 33%;
+  top: 75%;
   width: 23%;
+  left: 25%;
 }
 
 .row2-text3 {
   position: absolute;
-  top: 33%;
+  top: 75%;
   width: 23%;
+  left:50%;
 }
 
 .row2-text4 {
   position: absolute;
-  top: 33%;
+  top: 75%;
   width: 23%;
+  left: 75%;
 }
 
 #image-grapper {
