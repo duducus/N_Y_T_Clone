@@ -21,6 +21,7 @@ article {
   max-width: 1200px;
   padding-top: 30px;
   margin: 0 auto 0 auto;
+  margin-top: 35px;
 
 }
 
@@ -31,7 +32,7 @@ article > * {
 }
 
 h1{
-  position: rela;
+
   top: 15px;
   font-family: nyt-cheltenham;
   font-size: 40px;
