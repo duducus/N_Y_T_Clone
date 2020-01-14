@@ -143,6 +143,10 @@ iframe figcaption{
   background-color: rgb(50, 104, 145);
 }
 
+.title {
+  width: 64.5%;
+}
+
 .disclaimer_bottom {
   position: fixed;
   width: 100%;
@@ -180,8 +184,8 @@ iframe figcaption{
 }
 
 .image-wrapper > img {
-  margin-left: 15%;
-  max-width: 70%;
+  margin-left: 5%;
+  max-width: 85%;
   height: auto;
 }
 
