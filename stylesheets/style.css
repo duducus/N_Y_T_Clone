@@ -5,7 +5,8 @@
 
 body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  line-height: 1;
+  line-height: 1.5;
+  font-size: 22px;
 }
 
 header {
@@ -22,17 +23,13 @@ article {
   padding-top: 30px;
   margin: 0 auto 0 auto;
   margin-top: 35px;
-
 }
 
 article > * {
   grid-column: 2 / -2;
-
-
 }
 
 h1{
-
   top: 15px;
   font-family: nyt-cheltenham;
   font-size: 40px;
@@ -46,12 +43,19 @@ figcaption {
   color: #666;
 }
 
+iframe{
+  margin-top: 5%;
+}
+
+iframe figcaption{
+  bottom: 0;
+}
+
 .nav_bar {
   width: 100%;
-  position: fixed;
   background-color: white;
   top: 0;
-  border: 1px solid rgb(0,0,0);
+
 }
 
 .nav_left {
@@ -139,8 +143,6 @@ figcaption {
   background-color: rgb(50, 104, 145);
 }
 
-
-
 .disclaimer_bottom {
   position: fixed;
   width: 100%;
@@ -151,22 +153,22 @@ figcaption {
 }
 
 .text1_bottom {
-  position: relative;
+  position: absolute;
   font-family: nyt-franklin;
-  left: 40%;
+  left: 30%;
   font-weight: bold;
   top: 30%;
 }
 
 .text2_bottom {
-  position: relative;
-  left: 49%;
+  position: absolute;
+  left: 55%;
   top: 30%;
   font-weight: bold;
 }
 
 .arrow_bottom {
-  position: relative;
+  position: absolute ;
   width: 2%;
   height: auto;
   right: -50%;
@@ -189,14 +191,15 @@ figcaption {
 }
 
 .chart_img {
-  margin-top: 6%;
-  margin-left: 0%;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+  width: 180%;
+  margin-left: -40%;
 }
 
 .chart {
-  position: relative;
-  width: 95%;
+  width: 100%;
   height: auto;
 }
 
@@ -212,62 +215,102 @@ figcaption {
 
 .row1-text1 {
   position: absolute;
-  top: 33%;
-  width: 23%;
+  top: 30%;
+  width: 26%;
 }
 
 .row1-text2 {
   position: absolute;
-  top: 33%;
-  left: 25%;
-  width: 23%;
+  top: 30%;
+  left: 27%;
+  width: 22%;
   margin-right: 20px;
 }
 
 .row1-text3 {
   position: absolute;
-  top: 33%;
+  top: 30%;
   left: 50%;
   width: 23%;
 }
 
 .row1-text4 {
   position: absolute;
-  left: 75%;
-  top: 33%;
+  left: 76%;
+  top: 30%;
   width: 23%;
 }
 
 .row2-text1 {
   position: absolute;
-  top: 75%;
-  width: 23%;
+  top: 74%;
+  width: 22%;
 }
 
 .row2-text2 {
   position: absolute;
-  top: 75%;
+  top: 74%;
   width: 23%;
-  left: 25%;
+  left: 27%;
 }
 
 .row2-text3 {
   position: absolute;
-  top: 75%;
+  top: 74%;
   width: 23%;
-  left:50%;
+  left: 50%;
 }
 
 .row2-text4 {
   position: absolute;
-  top: 75%;
+  top: 74%;
   width: 23%;
-  left: 75%;
+  left: 76%;
 }
 
-#image-grapper {
-    position: relative;
+.chart_img h2 {
+  font-size: 30px;
+  line-height: 24px;
+  margin:0;
 }
+
+.chart_img p {
+  font-size: 15px;
+  color: #666;
+  margin: 2px;
+}
+
+.chart_img hr{
+  width: 10%;
+  margin-top: 4%;
+}
+
+.authors {
+  position: absolute;
+  margin-top: 8%;
+}
+
+.second-text p{
+  margin-left: 15%;
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 70%;
+}
+
+.image-wrapper2 {
+  width: 100%;
+  grid-column: 1 / -1;
+
+}
+
+.image-wrapper2 img {
+  margin-top: 2%;
+  margin-left: 0%;
+  max-width: 100%;
+  height: auto;
+}
+
 
 #preamble {
   font-family: nyt-franklin;
@@ -298,51 +341,4 @@ figcaption {
 
 #socials > * {
   margin-right: 10px;
-}
-
-.chart_img{
-  width: 60%;
-  margin-left: -105px;
-  position: absolute;
-}
-.chart_img h2 {
-  font-size: 20px;
-  line-height: 24px;
-  margin:0;
-}
-.chart_img p {
-  position: relative;
-  font-size: 14px;
-  color: #666;
-  margin: 2px;
-}
-.chart_img hr{
-  position: absolute;
-  width: 10%;
-  margin-top: 4%;
-
-  
-}
-.authors {
-  position: absolute;
-  margin-top: 8%;
-}
-
-.second-text{
-  position: absolute;
-  margin-left: 15%;
-  margin-top: 80px;
-  font-size: 40px;
-  font-weight: 400;
-  width: 70%;
-
-}
-iframe{
-  position: absolute;
-  margin-top: 5%;
-
-  
-}
-iframe figcaption{
-  position: absolute;
 }
