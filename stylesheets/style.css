@@ -541,3 +541,8 @@ footer ul li {
 footer ul li:first-child {
   padding-left: 0;
 }
+
+.nytimes-logo {
+  width: 195px;
+  height: 26px;
+}
