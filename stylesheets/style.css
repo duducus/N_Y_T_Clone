@@ -497,6 +497,7 @@ nav ul li img {
 
 .bottom-nav ul li {
   padding-bottom: 7px;
+  text-decoration: none;
 }
 
 .bottom-nav ul:last-of-type {
@@ -533,6 +534,7 @@ footer {
 footer ul li {
   display: inline-block;
   font-size: 0.7em;
+  text-decoration-style: none;
   font-family: Arial, sans-serif;
   padding-left: 10px;
   color: #b8a5b8;
