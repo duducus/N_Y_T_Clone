@@ -395,3 +395,30 @@ iframe figcaption{
   justify-content: left;
 }
 
+.suggestions{
+  margin-left: 10%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+.suggestions-left{
+  display:flex;
+  flex: 2 1 auto;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.single-article-suggestion{
+  flex: 1 1 25%;
+  padding: 3px 8px;
+}
+.s-titles {
+  font-weight: medium;
+  font-family: 'Roboto Slab', serif;
+  clear: right;
+}
+.suggestions-left h2{
+  font-size: medium;
+
+}
