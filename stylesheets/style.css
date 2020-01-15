@@ -337,12 +337,61 @@ iframe figcaption{
   float: left;
 }
 
-#socials {
-  float: right;
-  display: flex;
-  align-items: center;
+.social { 
+  top: 0;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
 
-#socials > * {
-  margin-right: 10px;
+.social li {
+  display: inline-block;
+  margin-left: 12px;
 }
+
+.social li:nth-child(-n+4) {
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #eeeeef;
+}
+
+.social li:nth-child(n+5) {
+  color: #666;
+} 
+
+.social li:nth-child(-n+4):hover {
+  background-color: #fff;
+  border: 1.5px solid #eeeeef;
+}
+
+.social li:nth-child(n+5):hover {
+  color: #eeeeef;
+}
+.readmore{
+    background-color: rgb(86, 123, 149);
+    color: white;
+    display: block;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    border-image: initial;
+    border-radius: 3px;
+    padding: 5px 0px;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.share-tab{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
