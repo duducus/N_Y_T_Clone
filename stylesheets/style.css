@@ -538,6 +538,7 @@ footer ul li {
   font-family: Arial, sans-serif;
   padding-left: 10px;
   color: #b8a5b8;
+  
 }
 
 footer ul li:first-child {
@@ -547,4 +548,9 @@ footer ul li:first-child {
 .nytimes-logo {
   width: 195px;
   height: 26px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
