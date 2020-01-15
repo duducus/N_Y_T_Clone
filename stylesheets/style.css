@@ -402,6 +402,12 @@ iframe figcaption{
   justify-content: space-between;
   max-width: 1200px;
 }
+.suggested-articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 .suggestions-left{
   display:flex;
   flex: 2 1 auto;
@@ -418,7 +424,25 @@ iframe figcaption{
   font-family: 'Roboto Slab', serif;
   clear: right;
 }
-.suggestions-left h2{
-  font-size: medium;
+.suggestions-right {
+  margin-left: 2%;
+  width: 100%;
+}
+.suggestions-right .s-titles {
+  padding: 20px 0;
+  border-top: 1px solid #ebebeb;
+}
 
+.suggestions img {
+  width: 100%;
+}
+
+.suggestions h2 {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.suggestions date {
+  font-size: 0.9rem;
 }
