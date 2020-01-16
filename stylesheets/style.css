@@ -147,6 +147,7 @@ iframe figcaption{
   width: 64.5%;
 }
 
+
 .disclaimer_bottom {
   position: fixed;
   width: 100%;
@@ -208,8 +209,18 @@ iframe figcaption{
 }
 
 .subs_ad1 {
-  width: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 75%;
+  width: 50%;
   margin-left: 30%;
+  text-align: center;
+}
+
+.ad1_bar {
+  position: absolute;
+  left: 50%;
+  width: 5%;
 }
 
 .credit {
@@ -337,8 +348,9 @@ iframe figcaption{
   float: left;
 }
 
-.social { 
-  top: 0;
+.social {
+  position: absolute;
+  right: 30%;
   font-size: 0.8rem;
   cursor: pointer;
 }
@@ -359,7 +371,7 @@ iframe figcaption{
 
 .social li:nth-child(n+5) {
   color: #666;
-} 
+}
 
 .social li:nth-child(-n+4):hover {
   background-color: #fff;
@@ -396,7 +408,7 @@ iframe figcaption{
 }
 
 .suggestions{
-  margin-left: 10%;
+  margin-left: 3%;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -409,14 +421,14 @@ iframe figcaption{
   margin: 0 auto;
 }
 .suggestions-left{
-  display:flex;
+  display: flex;
   flex: 2 1 auto;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .single-article-suggestion{
-  flex: 1 1 25%;
+  flex: 3 2 33%;
   padding: 3px 8px;
 }
 .s-titles {
@@ -538,7 +550,7 @@ footer ul li {
   font-family: Arial, sans-serif;
   padding-left: 10px;
   color: #b8a5b8;
-  
+
 }
 
 footer ul li:first-child {
@@ -548,6 +560,10 @@ footer ul li:first-child {
 .nytimes-logo {
   width: 195px;
   height: 26px;
+}
+
+.fa-comment-o {
+  font-size:36px;
 }
 
 a {
