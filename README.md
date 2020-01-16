@@ -12,7 +12,7 @@ The clone of the page contains a:
 -video
 -images
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/app_screenshot.png)
 =======
 
 
