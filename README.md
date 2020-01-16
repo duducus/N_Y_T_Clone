@@ -9,7 +9,9 @@ This HTML/CSS project is the third on the Microverse course. The aim of the proj
 The clone of the page contains a: 
 
 -a lot of text
+
 -video
+
 -images
 
 ![screenshot](./img/app_screenshot.png)
