@@ -4,6 +4,7 @@
 }
 
 body {
+
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   line-height: 1.5;
   font-size: 22px;
@@ -23,6 +24,11 @@ article {
   padding-top: 30px;
   margin: 0 auto 0 auto;
   margin-top: 35px;
+}
+
+article > p {
+  white-space: normal;
+  margin-bottom: 3%
 }
 
 article > * {
@@ -568,5 +574,5 @@ footer ul li:first-child {
 
 a {
 	color: inherit;
-	text-decoration: none;
+
 }
