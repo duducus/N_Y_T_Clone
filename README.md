@@ -39,11 +39,10 @@ Jorge Cerón
 
 👤 **Author**
 
-[blank space]
-- Github: [@]()
-- Twitter: [@]()
-- Linkedin: [Linkedin]()
-- Google: [your_mail]@gmail.com
+Joseph Mindo
+- Github: [@ Mindo-Joseph](https://github.com/Mindo-Joseph)
+- Twitter: [@mindoJoseph](https://twitter.com/mindoJoseph)
+- Google: mindo.joseph.mj@gmail.com
 
 
 ## 🤝 Contributing
