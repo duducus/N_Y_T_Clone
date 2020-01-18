@@ -57,11 +57,55 @@ iframe figcaption{
   bottom: 0;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav ul li img {
+  width: 15px;
+  height: auto;
+  transform: translateY(2px);
+}
+
+footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.5px solid #ebebeb;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 0.7em;
+  text-decoration-style: none;
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
+  color: #b8a5b8;
+
+}
+
+footer ul li:first-child {
+  padding-left: 0;
+}
+
+a {
+	color: inherit;
+}
+
+nav::before {
+  content: "";
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  display: block;
+  height: 1px;
+  margin-bottom: 10px;
+}
+
 .nav_bar {
   width: 100%;
   background-color: white;
   top: 0;
-
 }
 
 .nav_left {
@@ -80,15 +124,13 @@ iframe figcaption{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.7px;
-  line-height: 19px;
-  top: 5px;
+  line-height: 10px;
+  top: -6px;
 }
 
 .nav_left img {
   position: relative;
   margin-right: 12px;
-  top: 10px;
   width: 2%;
   left: 0;
 }
@@ -96,9 +138,8 @@ iframe figcaption{
 .logo_container img{
   display: block;
   position: relative;
-  top: 0px;
   width: 16%;
-  height: 10%;
+  top: -5px;
   left: 40%;
 }
 
@@ -108,7 +149,7 @@ iframe figcaption{
   float: right;
   width: 35%;
   right: 0;
-  top: 0%;
+  top: 10px;
 }
 
 .btn-nav_right1 {
@@ -148,6 +189,29 @@ iframe figcaption{
 .btn-nav_right1:hover {
   background-color: rgb(50, 104, 145);
 }
+
+.editor_pick{
+  position: absolute;
+  right: 0;
+  top: 350%;
+  width: 25%;
+  height: 70%;
+  font-size: 75%;
+}
+
+.editor_pick hr {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.editor_pick img {
+  width: 30%;
+}
+
+.editor_pick p {
+  width: 50%;
+}
+
 
 .title {
   width: 64.5%;
@@ -333,27 +397,6 @@ iframe figcaption{
 }
 
 
-#preamble {
-  font-family: nyt-franklin;
-}
-
-#preamble .author {
-  color: #333;
-  font-size: 15px;
-  font-weight: 700;
-  margin-top: 5%;
-}
-
-#preamble .author a {
-  color: #333;
-}
-
-#preamble .date {
-  font-size: 13px;
-  font-weight: 500;
-  float: left;
-}
-
 .social {
   position: absolute;
   right: 30%;
@@ -415,10 +458,8 @@ iframe figcaption{
 
 .suggestions{
   margin-left: 3%;
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
 }
 .suggested-articles {
   display: flex;
@@ -465,20 +506,6 @@ iframe figcaption{
   font-size: 0.9rem;
 }
 
-nav::before {
-  content: "";
-  border-top: 2px solid #e2e2e2;
-  border-bottom: 1px solid #e2e2e2;
-  display: block;
-  height: 1px;
-  margin-bottom: 10px;
-}
-
-#bottom-navigation {
-  margin: 5% 5% 0 7%;
-  font-family: Arial, sans-serif;
-}
-
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -488,16 +515,6 @@ nav::before {
   color: rgb(98, 136, 165);
   font-size: 0.7rem;
   align-self: flex-end;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav ul li img {
-  width: 15px;
-  height: auto;
-  transform: translateY(2px);
 }
 
 .bottom-nav {
@@ -541,27 +558,6 @@ nav ul li img {
   padding-top: 12px;
   border-top: 0.5px solid #ebebeb;
 }
-footer {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top: 0.5px solid #ebebeb;
-}
-
-footer ul li {
-  display: inline-block;
-  font-size: 0.7em;
-  text-decoration-style: none;
-  font-family: Arial, sans-serif;
-  padding-left: 10px;
-  color: #b8a5b8;
-
-}
-
-footer ul li:first-child {
-  padding-left: 0;
-}
 
 .nytimes-logo {
   width: 195px;
@@ -572,7 +568,29 @@ footer ul li:first-child {
   font-size:36px;
 }
 
-a {
-	color: inherit;
 
+#bottom-navigation {
+  margin: 5% 5% 0 7%;
+  font-family: Arial, sans-serif;
+}
+
+#preamble {
+  font-family: nyt-franklin;
+}
+
+#preamble .author {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+#preamble .author a {
+  color: #333;
+}
+
+#preamble .date {
+  font-size: 13px;
+  font-weight: 500;
+  float: left;
 }
