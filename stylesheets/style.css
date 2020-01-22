@@ -87,10 +87,6 @@ footer ul li:first-child {
   padding-left: 0;
 }
 
-a {
-  color: inherit;
-}
-
 nav::before {
   content: "";
   border-top: 2px solid #e2e2e2;
@@ -120,7 +116,6 @@ nav::before {
   width: 30%;
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
   line-height: 10px;
   top: -6px;
@@ -214,7 +209,6 @@ nav::before {
 .editor_pick p {
   width: 40%;
 }
-
 
 .title {
   width: 64.5%;
@@ -414,7 +408,7 @@ nav::before {
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px 0px;
+  padding: 5px 0;
   margin-right: auto;
   width: 50%;
 }
@@ -450,6 +444,7 @@ nav::before {
   flex: 3 2 33%;
   padding: 3px 8px;
 }
+
 .s-titles {
   font-weight: medium;
   font-family: 'Roboto Slab', serif;
