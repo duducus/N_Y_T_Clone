@@ -36,7 +36,7 @@ article > * {
 
 h1 {
   top: 15px;
-  font-family: nyt-cheltenham;
+  font-family: nyt-cheltenham, sans-serif;
   font-size: 40px;
   font-style: italic;
   margin-bottom: 5%;
@@ -44,7 +44,7 @@ h1 {
 
 figcaption {
   font-size: 15px;
-  font-family: nyt-imperial;
+  font-family: nyt-imperial, sans-serif;
   color: #666;
 }
 
@@ -543,7 +543,7 @@ nav::before {
 }
 
 #preamble {
-  font-family: nyt-franklin;
+  font-family: nyt-franklin, sans-serif;
 }
 
 #preamble .author {
