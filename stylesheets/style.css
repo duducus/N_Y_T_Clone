@@ -27,7 +27,7 @@ article {
 
 article > p {
   white-space: normal;
-  margin-bottom: 3%
+  margin-bottom: 3%;
 }
 
 article > * {
@@ -88,7 +88,7 @@ footer ul li:first-child {
 }
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 nav::before {
@@ -327,7 +327,7 @@ nav::before {
 .chart_img h2 {
   font-size: 30px;
   line-height: 24px;
-  margin:0;
+  margin: 0;
 }
 
 .chart_img p {
@@ -401,22 +401,22 @@ nav::before {
 }
 
 .readmore {
-    background-color: rgb(86, 123, 149);
-    color: white;
-    display: block;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    line-height: 1.5rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(50, 104, 145);
-    border-image: initial;
-    border-radius: 3px;
-    padding: 5px 0px;
-    margin-right: auto;
-    width: 50%;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0px;
+  margin-right: auto;
+  width: 50%;
 }
 
 .share-tab {
@@ -539,9 +539,8 @@ nav::before {
 }
 
 .fa-comment-o {
-  font-size:36px;
+  font-size: 36px;
 }
-
 
 #bottom-navigation {
   margin: 5% 5% 0 7%;
