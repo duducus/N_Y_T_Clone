@@ -96,6 +96,8 @@ nav::before {
   width: 100%;
   background-color: white;
   top: 0;
+  position: fixed;
+  border-bottom: 1px solid black;
 }
 
 .nav_left {
@@ -177,6 +179,21 @@ nav::before {
 
 .btn-nav_right1:hover {
   background-color: rgb(50, 104, 145);
+}
+
+.bottom_ad_bar {
+  width: 100%;
+  background-color:white;
+  bottom: 0;
+  position: fixed;
+  border-top: black;
+  display: flex;
+}
+
+
+.bottom_ad_bar p {
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .editor_pick {
