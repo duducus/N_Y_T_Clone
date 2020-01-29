@@ -6,7 +6,7 @@
 body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   line-height: 1.5;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 header {
@@ -19,10 +19,13 @@ header {
 article {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  max-width: 1200px;
+  max-width: 100%;
   padding-top: 30px;
   margin: 0 auto 0 auto;
   margin-top: 35px;
+}
+article img{
+  max-width: 120%;
 }
 
 article > p {
@@ -510,6 +513,13 @@ nav::before {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
+.bottom-nav ul{
+  list-style-type: none;
+ 
+}
+a{
+  text-decoration: none;
+}
 
 .bottom-nav ul li:first-of-type {
   font-weight: bold;
@@ -519,6 +529,7 @@ nav::before {
 .bottom-nav ul li {
   padding-bottom: 7px;
   text-decoration: none;
+  
 }
 
 .bottom-nav ul:last-of-type {
