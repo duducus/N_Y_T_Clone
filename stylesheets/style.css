@@ -24,7 +24,8 @@ article {
   margin: 0 auto 0 auto;
   margin-top: 35px;
 }
-article img{
+
+article img {
   max-width: 120%;
 }
 
@@ -186,13 +187,12 @@ nav::before {
 
 .bottom_ad_bar {
   width: 100%;
-  background-color:white;
+  background-color: white;
   bottom: 0;
   position: fixed;
   border-top: black;
   display: flex;
 }
-
 
 .bottom_ad_bar p {
   flex-direction: row;
@@ -227,21 +227,18 @@ nav::before {
 }
 
 .title {
-  width: 100%;
-  display: inline-block;
+  display: inline;
 }
-.title h1{
+
+.title h1 {
   text-align: center;
 }
 
 .image-wrapper {
-  
-  
   width: 100%;
 }
 
 .image-wrapper > img {
-  
   max-width: 75%;
   height: auto;
 }
@@ -249,7 +246,6 @@ nav::before {
 .image-wrapper figcaption {
   width: 120%;
   display: inline-block;
-  
 }
 
 .chart_img {
@@ -444,6 +440,7 @@ nav::before {
 
 .suggestions {
   margin-left: 3%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -462,16 +459,25 @@ nav::before {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.suggestions-left h2{
+  font-size: 20px;
+}
+
+
 
 .single-article-suggestion {
-  flex: 3 2 33%;
-  padding: 3px 8px;
+  flex: 3 2 32%;
+  
+}
+.single-article-suggestion figure{
+  max-width: 90%;
 }
 
 .s-titles {
   font-weight: medium;
   font-family: 'Roboto Slab', serif;
   clear: right;
+  font-size: 16px;
 }
 
 .suggestions-right {
@@ -482,6 +488,7 @@ nav::before {
 .suggestions-right .s-titles {
   padding: 20px 0;
   border-top: 1px solid #ebebeb;
+  font-size: 18px;
 }
 
 .suggestions img {
@@ -516,12 +523,14 @@ nav::before {
   font-size: 0.8rem;
   line-height: 1.2rem;
 }
-.bottom-nav ul{
+
+.bottom-nav ul {
   list-style-type: none;
- 
 }
-a{
+
+a {
   text-decoration: none;
+  color: #000;
 }
 
 .bottom-nav ul li:first-of-type {
@@ -532,7 +541,6 @@ a{
 .bottom-nav ul li {
   padding-bottom: 7px;
   text-decoration: none;
-  
 }
 
 .bottom-nav ul:last-of-type {
@@ -592,4 +600,34 @@ a{
   font-size: 13px;
   font-weight: 500;
   float: left;
+}
+.bottom-bar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 999;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+.bottom-bar-right {
+  position: absolute;
+  top: 17px;
+  right: 60px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bottom-bar-right img {
+  width: 15px;
+  height: 15px;
+  transform: rotate(-90deg);
+  margin-left: 15px;
+}
+
+.bottom-bar-center {
+  width: 600px;
+  height: auto;
+  margin: 17px auto;
 }
