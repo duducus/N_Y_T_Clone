@@ -227,7 +227,7 @@ nav::before {
 }
 
 .title {
-  width: 64.5%;
+  width: 100%;
   display: inline-block;
 }
 .title h1{
@@ -235,18 +235,21 @@ nav::before {
 }
 
 .image-wrapper {
-  grid-column: 1 / -1;
+  
+  
+  width: 100%;
 }
 
 .image-wrapper > img {
-  margin-left: 5%;
-  max-width: 85%;
+  
+  max-width: 75%;
   height: auto;
 }
 
 .image-wrapper figcaption {
-  width: 70%;
-  margin-left: 15%;
+  width: 120%;
+  display: inline-block;
+  
 }
 
 .chart_img {
