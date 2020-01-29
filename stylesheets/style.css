@@ -601,6 +601,20 @@ a {
   font-weight: 500;
   float: left;
 }
+.subscribe-links svg {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+
+.subscribe-links {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
+}
+
 .bottom-bar {
   height: 60px;
   width: 100%;
