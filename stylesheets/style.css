@@ -367,6 +367,7 @@ nav::before {
 .social {
   position: absolute;
   right: 30%;
+  top: 120%;
   font-size: 0.8rem;
   cursor: pointer;
 }
