@@ -225,6 +225,10 @@ nav::before {
 
 .title {
   width: 64.5%;
+  display: inline-block;
+}
+.title h1{
+  text-align: center;
 }
 
 .image-wrapper {
