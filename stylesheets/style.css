@@ -9,6 +9,11 @@ body {
   font-size: 18px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 header {
   z-index: 0;
   border-bottom: 1px solid lightgray;
@@ -66,8 +71,6 @@ nav ul li img {
   transform: translateY(2px);
 }
 
-
-
 nav::before {
   content: "";
   border-top: 2px solid #e2e2e2;
@@ -89,6 +92,15 @@ nav::before {
   float: left;
   position: absolute;
   margin-left: 2%;
+}
+
+.nav_right {
+  position: absolute;
+  padding: 5px;
+  float: right;
+  width: 35%;
+  right: 0;
+  top: 10px;
 }
 
 .nav_left a {
@@ -117,15 +129,6 @@ nav::before {
   width: 16%;
   top: -5px;
   left: 40%;
-}
-
-.nav_right {
-  position: absolute;
-  padding: 5px;
-  float: right;
-  width: 35%;
-  right: 0;
-  top: 10px;
 }
 
 .btn-nav_right1 {
@@ -368,9 +371,51 @@ nav::before {
   cursor: pointer;
 }
 
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
 .social li {
   display: inline-block;
   margin-left: 12px;
+}
+
+.footer-item li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.nav-header a {
+  color: rgb(98, 136, 165);
+  font-size: 0.7rem;
+  align-self: flex-end;
+}
+
+.bottom-nav ul {
+  list-style-type: none;
+}
+
+.last-footer > ul li {
+  float: left;
+  margin: 0 10px;
+  list-style: none;
+  font-size: 10px;
+}
+
+.last-footer > ul a {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+.bottom-nav ul li {
+  padding-bottom: 7px;
+  text-decoration: none;
 }
 
 .social li:nth-child(-n+4) {
@@ -386,6 +431,17 @@ nav::before {
   color: #666;
 }
 
+.bottom-nav ul li:first-of-type {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.bottom-nav ul:last-of-type {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+  margin-right: 5%;
+}
+
 .social li:nth-child(-n+4):hover {
   background-color: #fff;
   border: 1.5px solid #eeeeef;
@@ -393,6 +449,24 @@ nav::before {
 
 .social li:nth-child(n+5):hover {
   color: #eeeeef;
+}
+
+.bottom-nav ul:last-of-type li:nth-last-child(2) {
+  padding-top: 12px;
+  border-top: 0.5px solid #ebebeb;
+}
+
+.bottom-nav ul:last-of-type li:nth-last-child(5) {
+  margin-top: 20px;
+}
+
+.bottom-nav ul:last-of-type li:nth-last-child(-n+5) {
+  font-size: 0.6rem;
+}
+
+.bottom-nav ul:last-of-type li:nth-child(-n+4):not(:first-of-type) {
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .readmore {
@@ -441,17 +515,16 @@ nav::before {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.suggestions-left h2{
+
+.suggestions-left h2 {
   font-size: 20px;
 }
 
-
-
 .single-article-suggestion {
   flex: 3 2 32%;
-  
 }
-.single-article-suggestion figure{
+
+.single-article-suggestion figure {
   max-width: 90%;
 }
 
@@ -483,70 +556,9 @@ nav::before {
   border-top: 1px solid #000;
 }
 
-.suggestions date {
-  font-size: 0.9rem;
-}
-
 .nav-header {
   display: flex;
   justify-content: space-between;
-}
-
-.nav-header a {
-  color: rgb(98, 136, 165);
-  font-size: 0.7rem;
-  align-self: flex-end;
-}
-
-.bottom-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  font-size: 0.8rem;
-  line-height: 1.2rem;
-}
-
-.bottom-nav ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-.bottom-nav ul li:first-of-type {
-  font-weight: bold;
-  padding-bottom: 15px;
-}
-
-.bottom-nav ul li {
-  padding-bottom: 7px;
-  text-decoration: none;
-}
-
-.bottom-nav ul:last-of-type {
-  border-left: 1px solid rgb(226, 226, 226);
-  padding-left: 15px;
-  margin-right: 5%;
-}
-
-.bottom-nav ul:last-of-type li:nth-child(-n+4):not(:first-of-type) {
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.bottom-nav ul:last-of-type li:nth-last-child(-n+5) {
-  font-size: 0.6rem;
-}
-
-.bottom-nav ul:last-of-type li:nth-last-child(5) {
-  margin-top: 20px;
-}
-
-.bottom-nav ul:last-of-type li:nth-last-child(2) {
-  padding-top: 12px;
-  border-top: 0.5px solid #ebebeb;
 }
 
 .nytimes-logo {
@@ -556,6 +568,10 @@ a {
 
 .fa-comment-o {
   font-size: 36px;
+}
+
+.last-footer > ul a:hover {
+  text-decoration: underline;
 }
 
 #bottom-navigation {
@@ -583,6 +599,7 @@ a {
   font-weight: 500;
   float: left;
 }
+
 .subscribe-links svg {
   width: 15px;
   height: 15px;
@@ -621,12 +638,6 @@ a {
   transform: rotate(-90deg);
   margin-left: 15px;
 }
-.footer-item li {
-  margin-bottom: 10px;
-}
-footer-title {
-  float: left;
-}
 
 .footer-title + span {
   float: right;
@@ -656,10 +667,7 @@ footer-title {
   float: left;
   font-size: smaller;
 }
-.footer-item li{
-  font-size: 14px;
-  list-style-type: none;
-}
+
 .footer-main-title::after {
   content: ".";
   visibility: hidden;
@@ -680,10 +688,12 @@ footer-title {
   border-left: 1px solid rgb(185, 185, 185);
   padding-left: 10px;
 }
+
 .last-footer {
   width: 1150px;
   margin: 0 auto;
 }
+
 .last-footer > ul::after {
   content: ".";
   visibility: hidden;
@@ -692,21 +702,6 @@ footer-title {
   clear: both;
   margin-bottom: 90px;
 }
-.last-footer > ul li {
-  float: left;
-  margin: 0 10px;
-  list-style: none;
-  font-size: 10px;
-}
-.last-footer > ul a {
-  color: rgb(102, 102, 102);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 12px;
-}
-.last-footer > ul a:hover {
-  text-decoration: underline;
-}
-
 
 .bottom-bar-center {
   width: 600px;
