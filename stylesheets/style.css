@@ -372,7 +372,30 @@ nav::before {
   font-size: 0.8rem;
   cursor: pointer;
 }
-
+.css-1pv1u79 {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-width: 26px;
+  min-height: 18px;
+  position: relative;
+  width: auto;
+  background: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(102, 102, 102);
+  border-image: initial;
+  border-radius: 4px;
+  padding: 4px;
+}
+.css-1dtr3u3 {
+  color: rgb(0, 0, 0);
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin-top: auto;
+}
 .bottom-nav {
   display: flex;
   justify-content: space-between;
