@@ -381,6 +381,12 @@ nav::before {
   line-height: 1.2rem;
 }
 
+.social-bottom li {
+  display: inline-block;
+  margin-left: 25px;
+  padding: 2px;
+}
+
 .social li {
   display: inline-block;
   margin-left: 12px;
@@ -449,7 +455,7 @@ nav::before {
   border: 1.5px solid #eeeeef;
 }
 
-.social li:nth-child(n+5):hover {
+.socialli:nth-child(n+5):hover {
   color: #eeeeef;
 }
 
