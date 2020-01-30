@@ -372,6 +372,7 @@ nav::before {
   font-size: 0.8rem;
   cursor: pointer;
 }
+
 .comment-btn {
   -webkit-box-align: center;
   align-items: center;
@@ -390,12 +391,14 @@ nav::before {
   border-radius: 4px;
   padding: 4px;
 }
+
 .num-comments {
   color: rgb(0, 0, 0);
   font-size: 0.75rem;
   line-height: 0.75rem;
   margin-top: auto;
 }
+
 .bottom-nav {
   display: flex;
   justify-content: space-between;
