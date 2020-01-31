@@ -101,7 +101,7 @@ nav::before {
   float: right;
   width: 35%;
   right: 0;
-  top: 10px;
+  top: 5px;
 }
 
 .nav_left a {
@@ -214,6 +214,8 @@ nav::before {
 
 .title {
   display: inline;
+  width: 58%;
+  margin: 10% 15%;
 }
 
 .title h1 {
@@ -368,7 +370,7 @@ nav::before {
 .social {
   position: absolute;
   right: 30%;
-  top: 120%;
+  top: 138%;
   font-size: 0.8rem;
   cursor: pointer;
 }
