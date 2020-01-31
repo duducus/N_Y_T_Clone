@@ -153,9 +153,9 @@ nav::before {
   font-size: 9px;
   margin: 5px;
   font-weight: bold;
-  color: black;
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
   border-radius: 3px;
   width: 20%;
   position: relative;
@@ -376,10 +376,8 @@ nav::before {
 }
 
 .comment-btn {
-  -webkit-box-align: center;
   align-items: center;
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
   min-width: 26px;
   min-height: 18px;
@@ -565,7 +563,7 @@ nav::before {
 }
 
 .s-titles {
-  font-weight: medium;
+  font-weight: 200;
   font-family: 'Roboto Slab', serif;
   clear: right;
   font-size: 16px;
