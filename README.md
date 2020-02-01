@@ -15,7 +15,6 @@ The clone of the page contains a:
 -images
 
 ![screenshot](./img/app_screenshot.png)
-=======
 
 
 ## Built With
@@ -56,3 +55,5 @@ Feel free to check the [issues page](https://github.com/duducus/N_Y_T_Clone/issu
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
