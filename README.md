@@ -52,6 +52,7 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/duducus/N_Y_T_Clone/issues).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
